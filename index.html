@@ -913,6 +913,233 @@
         }
         
         @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+        
+        /* Mobile Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                padding: 10px 3%;
+            }
+            
+            .logo {
+                font-size: 1.5rem;
+            }
+            
+            .nav-links {
+                gap: 10px;
+                margin: 0 0 0 15px;
+            }
+            
+            .nav-item {
+                font-size: 0.75rem;
+            }
+            
+            .hero {
+                height: 70vh;
+                padding: 0 3%;
+                background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.85) 100%), 
+                            url('https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070') center/cover;
+            }
+            
+            .hero h1 {
+                font-size: 3rem;
+                margin: 0 0 0 10px;
+                transform: none;
+                text-shadow: 0px 8px 15px rgba(0,0,0,0.9);
+            }
+            
+            .hero p {
+                font-size: 0.95rem;
+                max-width: 100%;
+                margin: 15px 0;
+            }
+            
+            .btn-group {
+                flex-direction: column;
+                gap: 10px;
+                width: 100%;
+            }
+            
+            .btn {
+                width: 100%;
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+            
+            .row {
+                padding: 2rem 3% 0;
+            }
+            
+            .row h2 {
+                font-size: 1.5rem;
+            }
+            
+            .row-container {
+                padding: 15px 0 15px 10px;
+            }
+            
+            .card {
+                min-width: 250px;
+                height: 150px;
+                padding: 15px;
+            }
+            
+            .card h4 {
+                font-size: 1.2rem;
+            }
+            
+            .card p {
+                font-size: 0.75rem;
+            }
+            
+            .top-card {
+                width: 200px;
+                height: 300px;
+                padding: 0;
+            }
+            
+            .top-card-number {
+                font-size: 10rem;
+                left: 5px;
+                bottom: 5px;
+            }
+            
+            .top-card-content {
+                padding: 80px 15px 15px;
+            }
+            
+            .top-card h4 {
+                font-size: 1.3rem;
+            }
+            
+            .top-card p {
+                font-size: 0.8rem;
+            }
+            
+            .modal-content {
+                width: 95%;
+                margin: 10% auto;
+                max-height: 85vh;
+            }
+            
+            .modal-header {
+                padding: 30px 20px 15px;
+            }
+            
+            .modal-header h2 {
+                font-size: 1.8rem;
+            }
+            
+            .modal-body {
+                padding: 20px;
+            }
+            
+            .profile-modal-body {
+                padding: 20px;
+            }
+            
+            .profile-photo {
+                width: 150px;
+                height: 150px;
+            }
+            
+            .modal-footer {
+                padding: 15px 20px 30px;
+                flex-direction: column;
+            }
+            
+            .link-btn {
+                width: 100%;
+                text-align: center;
+                padding: 12px 20px;
+            }
+            
+            .contacts-section {
+                padding: 3rem 3%;
+            }
+            
+            .contacts-section h2 {
+                font-size: 2rem;
+            }
+            
+            .social-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .social-card {
+                padding: 30px 20px;
+            }
+            
+            .close {
+                right: 15px;
+                top: 10px;
+                font-size: 25px;
+            }
+            
+            footer {
+                padding: 40px 3%;
+                font-size: 0.9rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .logo {
+                font-size: 1.2rem;
+            }
+            
+            .nav-links {
+                gap: 8px;
+                margin: 0 0 0 10px;
+            }
+            
+            .nav-item {
+                font-size: 0.7rem;
+                padding: 3px 0;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+                margin: 0;
+            }
+            
+            .hero p {
+                font-size: 0.85rem;
+            }
+            
+            .card {
+                min-width: 200px;
+                height: 140px;
+            }
+            
+            .card h4 {
+                font-size: 1.1rem;
+            }
+            
+            .top-card {
+                width: 180px;
+                height: 280px;
+            }
+            
+            .top-card-number {
+                font-size: 8rem;
+            }
+            
+            .top-card h4 {
+                font-size: 1.2rem;
+            }
+            
+            .modal-header h2 {
+                font-size: 1.5rem;
+            }
+            
+            .contacts-section h2 {
+                font-size: 1.8rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
     </style>
 </head>
 <body>
